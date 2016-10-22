@@ -1,0 +1,152 @@
+.u-blog-cont {
+    padding: 5%;
+    width: 90%;
+    max-width: 960px;
+}
+
+.u-blog-cont img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    max-width: 800px;
+}
+
+.u-blog-cont h3 {
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+    /*idth: 100% !important;*/
+    font-weight: normal;
+    max-width: 960px !important;
+    text-align: center;
+}
+
+.u-blog-cont p {
+    width: 100% !important;
+    max-width: 960px !important;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #6f6f6e;
+    padding-top: 25px;
+    text-align: justify;
+    line-height: 140% !important;
+}
+.u-blog-cont em {
+    width: 100% !important;
+    max-width: 960px !important;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: justify;
+    color: #6f6f6e;
+    padding: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.u-blog-cont em::before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    color: #00548A !important;
+    font-size: 25px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.u-blog-cont em::after {
+    content: "\f10e";
+    font-family: FontAwesome;
+    color: #00548A !important;
+    font-size: 25px;
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+}
+
+.u-blog-cont ol {
+    width: 100% !important;
+    max-width: 960px !important;
+    text-decoration: none !important;
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 25px;
+    float: left;
+}
+
+.u-blog-cont ol li {
+    text-decoration: none !important;
+    list-style-type: none;
+}
+
+.u-blog-cont ol li h5 {
+    font-size: 1.4rem !important;
+    color: #515151;
+}
+
+.u-blog-cont ol li p span {
+    padding-top: 15px;
+    width: 100% !important;
+    margin: 0;
+}
+
+.u-blog-cont ol li em {
+    width: 100% !important;
+    max-width: 960px !important;
+    margin: 0;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: justify;
+    color: #6f6f6e;
+    padding: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.u-blog-cont ul {
+    width: 70% !important;
+    max-width: 960px !important;
+    text-decoration: none !important;
+    list-style-type: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 25px;
+    float: left;
+}
+
+.u-blog-cont ul li {
+    width: 100% !important;
+    max-width: 960px !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    float: left;
+    text-align: left;
+    color: #6f6f6e;
+    padding-left: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.u-blog-cont ul li::before {
+    font-family: FontAwesome;
+    content: "\f10c";
+    color: #00548A !important;
+    font-size: 12px;
+    position: absolute;
+    z-index: 999;
+    vertical-align: middle;
+    top: 30%;
+    left: 0;
+}
